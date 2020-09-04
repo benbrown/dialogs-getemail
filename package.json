@@ -1,0 +1,19 @@
+{
+  "name": "dialogs-getemail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benbrown/dialogs-getemail.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benbrown/dialogs-getemail/issues"
+  },
+  "homepage": "https://github.com/benbrown/dialogs-getemail#readme"
+}
