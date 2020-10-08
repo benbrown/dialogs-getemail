@@ -16,4 +16,4 @@
 - IF: ${ dialog.reprompt && dialog.reprompt != '' } 
   - ${ dialog.reprompt }
 - ELSE:
- - Sorry, that wasn't a valid email address. Please try again.
+ - Sorry, that wasn't a valid email address. Please try again!
