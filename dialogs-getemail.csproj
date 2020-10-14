@@ -1,6 +1,26 @@
-<PropertyGroup> 
-<PackageId>benbrown.dialogs.getEmail</PackageId>
-<Version>1.0.0</Version>
-<Authors>benbrown</Authors>
-<Company>bot framework</Company>
-</PropertyGroup>
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>Test2 stuff.</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.3</Version>
+    <PackageReleaseNotes>Testing stuff2 to get the right behavior.</PackageReleaseNotes>
+    <Authors>benbrown</Authors>
+    <Company>xoxco</Company>
+    <Copyright>Forever more2</Copyright>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- This redirects assets to PackageAssets\assemblyName in package -->
+
+    <Content Include="exported\**\*.*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <PackageCopyToOutput>true</PackageCopyToOutput>
+      <PackagePath>exported\$(AssemblyName)</PackagePath>
+    </Content>
+    <!-- Hide dependent project assets in UI. -->
+    <None Update="exported\**\*.*" Visible="false" />
+  </ItemGroup>
+
+
+</Project>
