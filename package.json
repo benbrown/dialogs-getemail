@@ -1,7 +1,7 @@
 {
   "name": "dialogs-getemail",
   "version": "1.0.0",
-  "description": "",
+  "description": "Customizable dialog for capturing an email address",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/benbrown/dialogs-getemail.git"
   },
-  "author": "",
+  "keywords": ["bot framework composer","language generation","bot framework"],
+  "author": "Ben Brown <benbrown@gmail.com>", 
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/benbrown/dialogs-getemail/issues"
